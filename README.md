@@ -1,0 +1,3 @@
+# Stack Overflow Bug in Javascript
+
+This repository demonstrates a common error in Javascript: stack overflow caused by uncontrolled recursion. The `foo` function recursively calls itself without a proper termination condition, leading to a stack overflow error if the difference between `a` and `b` is too large. The solution showcases how to add a proper base case to prevent the overflow.  The solution is provided in `bugSolution.js`.
